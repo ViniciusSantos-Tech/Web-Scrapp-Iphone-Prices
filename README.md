@@ -1,46 +1,111 @@
-## 𝒊𝑷𝒉𝒐𝒏𝒆 𝑷𝒓𝒊𝒄𝒆 𝑻𝒓𝒂𝒄𝒌𝒆𝒓
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF00,100:006400&height=200&section=header&text=Scrapping%20Iphone&fontSize=45&fontColor=ffffff&animation=fadeIn" />
+</p>
 
-𝑼𝒎 𝒎𝒐𝒏𝒊𝒕𝒐𝒓 𝒊𝒏𝒕𝒆𝒍𝒊𝒈𝒆𝒏𝒕𝒆 𝒅𝒆 𝒑𝒓𝒆𝒄̧𝒐𝒔 𝒅𝒆 𝒊𝑷𝒉𝒐𝒏𝒆 𝒒𝒖𝒆 𝒓𝒂𝒔𝒕𝒓𝒆𝒊𝒂 𝒆 𝒄𝒐𝒎𝒑𝒂𝒓𝒂 𝒗𝒂𝒍𝒐𝒓𝒆𝒔 𝒆𝒎 𝒕𝒆𝒎𝒑𝒐 𝒓𝒆𝒂𝒍 𝒏𝒂𝒔 𝒎𝒂𝒊𝒐𝒓𝒆𝒔 𝒍𝒐𝒋𝒂𝒔 𝒐𝒏𝒍𝒊𝒏𝒆 𝒅𝒐 𝑩𝒓𝒂𝒔𝒊𝒍.
+# 📱 Monitoramento de Preços - iPhone 16
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4.12%2B-green)
+![Plotly](https://img.shields.io/badge/Plotly-5.18%2B-3F4F75)
 
-##  𝑭𝒖𝒏𝒄𝒊𝒐𝒏𝒂𝒍𝒊𝒅𝒂𝒅𝒆𝒔
-✅ 𝑴𝒐𝒏𝒊𝒕𝒐𝒓𝒂𝒎𝒆𝒏𝒕𝒐 𝒆𝒎 𝒕𝒆𝒎𝒑𝒐 𝒓𝒆𝒂𝒍 𝒅𝒆 𝒑𝒓𝒆𝒄̧𝒐𝒔 𝒅𝒆 𝒊𝑷𝒉𝒐𝒏𝒆
+### Um monitor de preços em tempo real para o iPhone 16 que coleta automaticamente os valores das principais lojas online brasileiras e apresenta uma análise comparativa em uma interface web interativa.
 
-✅ 𝑪𝒐𝒎𝒑𝒂𝒓𝒂𝒄̧𝒂̃𝒐 𝒂𝒖𝒕𝒐𝒎𝒂́𝒕𝒊𝒄𝒂 𝒆𝒏𝒕𝒓𝒆 5 𝒍𝒐𝒋𝒂𝒔 𝒅𝒊𝒇𝒆𝒓𝒆𝒏𝒕𝒆𝒔
+## ✨ Funcionalidades
+- 🔍 Web Scraping Automático: Coleta preços de 5 lojas online simultaneamente
+- 📊 Visualização Interativa: Gráficos dinâmicos com Plotly para comparação de preços
+- 🏪 Lojas Monitoradas:
+- Amazon
+- Zoom
+- Carrefour
+- Buscapé
+- Livelo
 
-✅ 𝑹𝒆𝒍𝒂𝒕𝒐́𝒓𝒊𝒐𝒔 𝒇𝒐𝒓𝒎𝒂𝒕𝒂𝒅𝒐𝒔 𝒄𝒐𝒎 𝒑𝒂𝒏𝒅𝒂𝒔
+- 📈 Análise Comparativa: Identifica automaticamente o maior e menor preço
 
-✅ 𝑨𝒕𝒖𝒂𝒍𝒊𝒛𝒂𝒄̧𝒂̃𝒐 𝒂𝒖𝒕𝒐𝒎𝒂́𝒕𝒊𝒄𝒂 𝒂 𝒄𝒂𝒅𝒂 6 𝒉𝒐𝒓𝒂𝒔
+- 🔄 Atualização em Tempo Real: Execução contínua para monitoramento
 
-✅ 𝑻𝒓𝒂𝒕𝒂𝒎𝒆𝒏𝒕𝒐 𝒅𝒆 𝒆𝒓𝒓𝒐𝒔 𝒆 𝒆𝒙𝒄𝒆𝒄̧𝒐̃𝒆𝒔
-## 𝑻𝒆𝒄𝒏𝒐𝒍𝒐𝒈𝒊𝒂𝒔
-𝑷𝒚𝒕𝒉𝒐𝒏 3
+- 📱 Interface Web: Dashboard interativo com Streamlit
+## Tela Inicial
+![Captura de Tela da Interface Inicial](Views/View1.png)
+## Dashboard
+![Captura de Tela da Interface Inicial](Views/View2.png)
 
-𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒔 - 𝑹𝒆𝒒𝒖𝒊𝒔𝒊𝒄̧𝒐̃𝒆𝒔 𝑯𝑻𝑻𝑷
 
-𝑩𝒆𝒂𝒖𝒕𝒊𝒇𝒖𝒍𝑺𝒐𝒖𝒑 - 𝑾𝒆𝒃 𝑺𝒄𝒓𝒂𝒑𝒊𝒏𝒈
+## 🛠️ Tecnologias Utilizadas
+- Python 3.8+
+- Streamlit - Interface web e dashboard
 
-𝑷𝒂𝒏𝒅𝒂𝒔 - 𝑨𝒏𝒂́𝒍𝒊𝒔𝒆 𝒅𝒆 𝒅𝒂𝒅𝒐𝒔
+- BeautifulSoup4 - Web scraping e parsing HTML
+- Requests - Requisições HTTP para as lojas
+- Pandas - Manipulação e estruturação de dados
+- Plotly - Visualização de dados e gráficos interativos
 
-𝑻𝒊𝒎𝒆 - 𝑨𝒈𝒆𝒏𝒅𝒂𝒎𝒆𝒏𝒕𝒐
+## 📦 Instalação
+### Pré-requisitos
+- Python 3.8 ou superior
+- pip (gerenciador de pacotes Python)
 
- ## 𝑳𝒐𝒋𝒂𝒔 𝑴𝒐𝒏𝒊𝒕𝒐𝒓𝒂𝒅𝒂𝒔
-𝑨𝒎𝒂𝒛𝒐𝒏
+### Passo a passo
+1️⃣ **Clone o repositório**
+````
+git clone https://github.com/seu-usuario/monitor-precos-iphone.git
+cd monitor-precos-iphone
+````
+2️⃣ **Crie um ambiente virtual (opcional, mas recomendado)**
 
-𝒁𝒐𝒐𝒎
+```
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate #Windowns
+```   
+3️⃣ **Instale as dependências**
 
-𝑪𝒂𝒓𝒓𝒆𝒇𝒐𝒖𝒓
+````
+pip install -r requirements.txt
+````
+4️⃣ **Execute a aplicação**
+````
+streamlit run app.py
+````
+## 🚀 Como Usar
+### Execução Básica
+1- Execute o script principal:
 
-𝑩𝒖𝒔𝒄𝒂𝒑𝒆́
+````
+python monitor_precos.py
+````
 
-𝑳𝒊𝒗𝒆𝒍𝒐
+2 - Acesse o dashboard web:
 
-## 𝑪𝒐𝒎𝒐 𝑼𝒔𝒂𝒓
-bash
-## 𝑪𝒍𝒐𝒏𝒆 𝒐 𝒓𝒆𝒑𝒐𝒔𝒊𝒕𝒐́𝒓𝒊𝒐
-𝒈𝒊𝒕 𝒄𝒍𝒐𝒏𝒆 𝒉𝒕𝒕𝒑𝒔://𝒈𝒊𝒕𝒉𝒖𝒃.𝒄𝒐𝒎/𝒔𝒆𝒖-𝒖𝒔𝒖𝒂𝒓𝒊𝒐/𝒊𝒑𝒉𝒐𝒏𝒆-𝒑𝒓𝒊𝒄𝒆-𝒕𝒓𝒂𝒄𝒌𝒆𝒓.𝒈𝒊𝒕
+- Abra seu navegador
 
-## 𝑰𝒏𝒔𝒕𝒂𝒍𝒆 𝒂𝒔 𝒅𝒆𝒑𝒆𝒏𝒅𝒆̂𝒏𝒄𝒊𝒂𝒔
-𝒑𝒊𝒑 𝒊𝒏𝒔𝒕𝒂𝒍𝒍 𝒓𝒆𝒒𝒖𝒆𝒔𝒕𝒔 𝒃𝒆𝒂𝒖𝒕𝒊𝒇𝒖𝒍𝒔𝒐𝒖𝒑4 𝒑𝒂𝒏𝒅𝒂𝒔
+- Navegue para http://localhost:8501
 
-## 𝑬𝒙𝒆𝒄𝒖𝒕𝒆 𝒐 𝒎𝒐𝒏𝒊𝒕𝒐𝒓
-𝒑𝒚𝒕𝒉𝒐𝒏 𝒊𝒑𝒉𝒐𝒏𝒆_𝒑𝒓𝒊𝒄𝒆_𝒎𝒐𝒏𝒊𝒕𝒐𝒓.𝒑𝒚
+- Visualize os preços atualizados automaticamente
+
+## 📊🛠️Funcionalidades do Dashboard
+- Tabela de Preços: Visualize os preços brutos coletados de cada loja
+
+- Gráfico de Barras: Compare visualmente os preços entre as lojas
+
+- Destaque de Valores: Identificação automática do maior e menor preço
+
+- Escala de Cores: Gradiente visual para diferenciação de valores
+
+## Personalização
+### Para monitorar outros produtos:
+
+- Substitua as URLs no código
+
+- Ajuste os seletores de preço se necessário
+
+- Modifique os nomes das lojas no dashboard
+- 
+## ❗Limitações
+- As lojas podem alterar sua estrutura HTML, quebrando o scraping
+
+- Algumas lojas podem bloquear requisições automatizadas
+
+- O formato de preço pode variar entre lojas
+##  🤝 Contribuindo
+### Contribuições são bem-vindas!💖 
