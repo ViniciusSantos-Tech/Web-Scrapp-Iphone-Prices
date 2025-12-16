@@ -2,110 +2,107 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF00,100:006400&height=200&section=header&text=Scrapping%20Iphone&fontSize=45&fontColor=ffffff&animation=fadeIn" />
 </p>
 
-# 📱 Monitoramento de Preços - iPhone 16
+# 📱 Price Monitoring – iPhone 16
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B)
 ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4.12%2B-green)
 ![Plotly](https://img.shields.io/badge/Plotly-5.18%2B-3F4F75)
+### A real-time price monitor for the iPhone 16 that automatically collects prices from major Brazilian online stores and presents a comparative analysis through an interactive web interface.
 
-### Um monitor de preços em tempo real para o iPhone 16 que coleta automaticamente os valores das principais lojas online brasileiras e apresenta uma análise comparativa em uma interface web interativa.
-
-## ✨ Funcionalidades
-- 🔍 Web Scraping Automático: Coleta preços de 5 lojas online simultaneamente
-- 📊 Visualização Interativa: Gráficos dinâmicos com Plotly para comparação de preços
-- 🏪 Lojas Monitoradas:
+## ✨ Features
+- 🔍 Automatic Web Scraping: Collects prices from 5 online stores simultaneously
+- 📊 Interactive Visualization: Dynamic charts with Plotly for price comparison
+- 🏪 Monitored Stores:
 - Amazon
 - Zoom
 - Carrefour
 - Buscapé
 - Livelo
 
-- 📈 Análise Comparativa: Identifica automaticamente o maior e menor preço
+- 📈 Comparative Analysis: Automatically identifies the highest and lowest prices
 
-- 🔄 Atualização em Tempo Real: Execução contínua para monitoramento
+- 🔄 Real-Time Updates: Continuous execution for ongoing monitoring- 📱 Web Interface: Interactive dashboard with Streamlit
 
-- 📱 Interface Web: Dashboard interativo com Streamlit
-## Tela Inicial
-![Captura de Tela da Interface Inicial](Views/View1.png)
+## Home Screen
+![Initial Interface Screenshot](Views/View1.png)
+
 ## Dashboard
-![Captura de Tela da Interface Inicial](Views/View2.png)
+![Initial Interface Screenshot](Views/View2.png)
 
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 - Python 3.8+
-- Streamlit - Interface web e dashboard
+- Streamlit – Web interface and dashboard
+- BeautifulSoup4 – Web scraping and HTML parsing
+- Requests – HTTP requests to online stores
+- Pandas – Data manipulation and structuring
+- Plotly – Data visualization and interactive charts
 
-- BeautifulSoup4 - Web scraping e parsing HTML
-- Requests - Requisições HTTP para as lojas
-- Pandas - Manipulação e estruturação de dados
-- Plotly - Visualização de dados e gráficos interativos
 
-## 📦 Instalação
-### Pré-requisitos
-- Python 3.8 ou superior
-- pip (gerenciador de pacotes Python)
+## 📦 Installation
+### Prerequisites
+- Python 3.8 or higher
+- pip (Python package manager)
 
-### Passo a passo
-1️⃣ **Clone o repositório**
+### Step by step
+1️⃣ **Clone the repository**
+
 ````
 git clone https://github.com/seu-usuario/monitor-precos-iphone.git
 cd monitor-precos-iphone
 ````
-2️⃣ **Crie um ambiente virtual (opcional, mas recomendado)**
+
+2️⃣ **Create a virtual environment (optional, but recommended)**
 
 ```
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate #Windowns
-```   
-3️⃣ **Instale as dependências**
+venv\Scripts\activate    # Windows
+```
+
+3️⃣ **Install the dependencies**
 
 ````
 pip install -r requirements.txt
 ````
-4️⃣ **Execute a aplicação**
+4️⃣ **Run the application**
 ````
 streamlit run app.py
 ````
-## 🚀 Como Usar
-### Execução Básica
-1- Execute o script principal:
+## 🚀 How to Use
+### Basic Execution
+1- Run the main script:
 
 ````
 python monitor_precos.py
 ````
 
-2 - Acesse o dashboard web:
+2- Access the web dashboard:
+- Open your browser
+- Navigate to http://localhost:8501
+- View automatically updated prices
 
-- Abra seu navegador
 
-- Navegue para http://localhost:8501
+## 📊🛠️ Dashboard Features
+- Price Table: View raw prices collected from each store
+- Bar Chart: Visually compare prices between stores
+- Value Highlighting: Automatic identification of the highest and lowest prices
+- Color Scale: Visual gradient to differentiate values
 
-- Visualize os preços atualizados automaticamente
 
-## 📊🛠️Funcionalidades do Dashboard
-- Tabela de Preços: Visualize os preços brutos coletados de cada loja
+## Customization
+### To monitor other products:
+- Replace the URLs in the code
+- Adjust price selectors if necessary
+- Modify store names in the dashboard
 
-- Gráfico de Barras: Compare visualmente os preços entre as lojas
 
-- Destaque de Valores: Identificação automática do maior e menor preço
+## ❗ Limitations
+- Stores may change their HTML structure, breaking the scraping
+- Some stores may block automated requests
+- Price formats may vary between stores
 
-- Escala de Cores: Gradiente visual para diferenciação de valores
 
-## Personalização
-### Para monitorar outros produtos:
-
-- Substitua as URLs no código
-
-- Ajuste os seletores de preço se necessário
-
-- Modifique os nomes das lojas no dashboard
-- 
-## ❗Limitações
-- As lojas podem alterar sua estrutura HTML, quebrando o scraping
-
-- Algumas lojas podem bloquear requisições automatizadas
-
-- O formato de preço pode variar entre lojas
-##  🤝 Contribuindo
-### Contribuições são bem-vindas!💖 
+## 🤝 Contributing
+### Contributions are welcome! 💖
+```
